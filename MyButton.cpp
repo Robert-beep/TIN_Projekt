@@ -8,7 +8,8 @@ MyButton::MyButton(const int i, const int j, QWidget* parent) : QPushButton(pare
 {
 	btnReihe = i;
 	btnSpalte = j;
-	owner = BLUE;
+	owner = 0;
+	status = WHS;
 }
 
 

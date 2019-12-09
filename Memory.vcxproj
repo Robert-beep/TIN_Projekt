@@ -90,6 +90,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="MyButton.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Memory.h" />
@@ -99,6 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="Memory.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyButton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
